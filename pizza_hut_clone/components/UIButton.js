@@ -7,7 +7,7 @@ import {
   Platform,
 } from 'react-native';
 
-const UIButton = ({onPress, title}) => {
+const UIButton = ({onPress, title, backgroundColor}) => {
   return (
     <TouchableOpacity style={styles.button} onPress={onPress}>
       <Text style={styles.buttonText}>{title}</Text>
