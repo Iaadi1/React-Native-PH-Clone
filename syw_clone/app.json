@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "syw_clone",
-    "slug": "syw_clone",
+    "slug": "expoapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,23 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.codesmasher.expoapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a06d9905-86af-4375-a514-db6b5d318760"
+      }
+    },
+    "owner": "codesmasher",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a06d9905-86af-4375-a514-db6b5d318760"
     }
   }
 }
