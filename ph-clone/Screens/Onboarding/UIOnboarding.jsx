@@ -82,7 +82,7 @@ export default function UIOnboarding({navigation}) {
             <UIButton
               title="Continue"
               onPress={() => {
-                navigation.navigate('Home');
+                navigation.navigate('LOGIN');
               }}
             />
           </View>
